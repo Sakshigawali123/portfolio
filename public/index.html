@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/41b31dfbdb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="img/images.png" class="logo">
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+          </nav>
+          <div class="header-text">
+            <p>Web developer</p>
+            <h1>Hello, I'm <span>Sakshi</span>Gawali </h1>
+            </div>
+            </div>
+          </div>
+    </div>
+    <!--------about--------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="img/user1.jpeg">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p> 
+              I am fresher, self experience as an web developer, I am passionate about creating robust and user-friendly web applications.
+              🌍Proficient in front-end technologies like HTML, CSS, JavaScript, and frameworks such as React.js
+              Skilled in version control systems like Git</p>
+
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links active-link"onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links active-link"onclick="opentab('Education')">Education</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                    <li><span>Web</span>developer</li>
+                    <li><span>front-end</span>developer , front-page interfaces</li>
+                    <li><span>web development</span> technologies like HTML , CSS , JavaScript</li>
+                    </ul>
+                </div>
+                <div class="tab-contents active-tab" id="Experience">
+                  <ul>
+                    <li><span>2025 - current</span>web developer as an fresher</li>
+                    <li><span>2023 - 2024</span>completed internship at IBM FROM EDUNET foundation</li>
+                    <li><span>2022 - 2023</span> learning soft skillsweb development technologies like HTML , CSS , JavaScript</li>
+                    </ul>
+                </div>
+                <div class="tab-contents active-tab" id="Education">
+                  <ul>
+                    <li><span>2025</span>i recently completed bachelor in computer science</li>
+                    <li><span>2025</span>from savitribai phule univercity,pune</li>
+                    </ul>
+                </div>
+          </div>
+          </div>
+
+    </div>
+    </div>
+    <!--------sevices------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web design</h2>
+            <p>User experience (UX) and user interface (UI) design: Creates visually appealing and user-friendly websites and applications. 
+              Responsive design: A website that automatically adapts to the size of different screens, such as computers, tablets, and smartphones. 
+              Full-stack development: Covers both front-end and back-end responsibilities. A full-stack developer may be responsible for all facets of a website's development. 
+              Custom web design: A collaborative process that ensures the site represents a brand. 
+              Agile web development: Uses agile methodology to deliver a website in a streamlined manner that matches a client's goals, timeline, and budget. 
+              </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>front-end page design</h2>
+            <p> 
+              Responsive design: A website that automatically adapts to the size of different screens, such as computers, tablets, and smartphones. 
+              Full-stack development: Covers both front-end and back-end responsibilities. A full-stack developer may be responsible for all facets of a website's development. 
+              Custom web design: A collaborative process that ensures the site represents a brand. 
+              Agile web development: Uses agile methodology to deliver a website in a streamlined manner that matches a client's goals, timeline, and budget. 
+              </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>ui/ux design</h2>
+            <p>User experience (UX) and user interface (UI) design: Creates visually appealing and user-friendly websites and applications. 
+              Responsive design: A website that automatically adapts to the size of different screens, such as computers, tablets, and smartphones. 
+              Full-stack development: Covers both front-end and back-end responsibilities. A full-stack developer may be responsible for all facets of a website's development. 
+              </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  <!----------------porrtfolio------>
+
+  <div id="portfolio">
+    <div class="container">
+     <h1 class="sub-title">My work</h1>
+     <div class="work-list">
+       <div class="work">
+        <img src="img/work5.jpeg">
+        <div class="layer">
+          <h3>Social media app</h3>
+          <p> the page is connects us to the people around the world,
+             Download it from app store.
+          </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        </div>
+        <div class="work">
+          <img src="img/work2.jpeg">
+          <div class="layer">
+            <h3>online shopping web clone</h3>
+            <p> the page is connects us to the people order dresses and all types of clothes and other,
+               Download it from app store.
+            </p>
+            <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+          </div>
+          </div>
+          <div class="work">
+            <img src="img/work3.jpeg">
+            <div class="layer">
+              <h3>music web clone</h3>
+              <p> the page is connects us to the people to listen different songs in any languages,
+                 Download it from app store.
+              </p>
+              <a href="#"><i class="fa-sharp fa-solid fa-music"></i></a>
+            </div>
+            </div>
+
+        
+       </div>
+       <a href="#" class="btn">see more</a>
+
+     </div>
+
+  </div>
+<!-------contact-------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact me</h1>
+        <p><i class="fa-sharp fa-solid fa-paper-plane-top"></i>sakshigawali1912@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>9356417375</p>
+        <div class="social-icons">
+          <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-square-github"></i></a>
+          <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+
+        </div>
+        <a href="img/sakshi resume.pdf" download class="btn btn2">Download cv</a>
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Youe email" required>
+          <textarea name="message" rows="6" placeholder="Your message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+
+    </div>
+    </div>
+    <div class="copyright">
+      <p>this is sakshi gawali<i class="fa-solid fa-heart"></i></p>
+    </div>
+    </div>
+  
+    <script>
+      var tablinks = documents.getElementByClassName("tab-links");
+      var tabcontents = documents.getElementByClassName("tab-contents");
+
+      function opentab(tabname){
+        for(tablink of tablink){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+      </script>
+    </body>
+    </html>
